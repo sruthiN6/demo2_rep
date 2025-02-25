@@ -15,7 +15,7 @@ steps{
 sh'javac hello.java'
 }
 }
-stage('run')
+stages('run')
 {
 steps{
 sh 'java hello'
