@@ -9,7 +9,7 @@ steps{
 git 'https://github.com/sruthiN6/demo2_rep.git'
 }
 }
-stages(build')
+stages('build')
 {
 steps{
 sh'javac hello.java'
